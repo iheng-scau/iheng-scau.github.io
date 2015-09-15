@@ -61,3 +61,14 @@ footer{
     width: inherit;
     height: inherit;
 }
+
+#smaller-info{
+    font-size: 12px;
+}
+
+.profile-section{
+    display: block;
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
