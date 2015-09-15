@@ -12,6 +12,7 @@ body {
 }
 
 i{
+    display: inline-block;
     padding-right: 5px;
 }
 /*main block style*/
