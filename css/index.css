@@ -10,6 +10,10 @@ body {
     height: 100%;
     background-image: url(../img/grid.png);
 }
+
+i{
+    padding-right: 5px;
+}
 /*main block style*/
 .nav{
     position: absolute;
@@ -25,11 +29,6 @@ body {
 .main{
     width: 80%;
     height:90%;
-}
-
-footer{
-    width: 100%;
-    height: 10%;
 }
 
 /*nav style*/
