@@ -6,11 +6,16 @@
 
 body {
     padding: 0 15% 0 15%;
+    width: 70%;
+    height: 100%;
+    background-image: url(../img/grid.png);
 }
 /*main block style*/
 .nav{
+    float: left;
     width: 20%;
     height: 90%;
+    display: block;
     min-width: 200px;
     background-color: #ffd800;
 }
@@ -47,6 +52,7 @@ footer{
 .profiles {
     display: block;
     text-align: center;
+    padding-top: 20px;
 }
 
 .portrait {
@@ -71,4 +77,15 @@ footer{
     text-align: left;
     font-family: 'Segoe UI';
     font-size: 13px;
+}
+
+footer{
+    position: absolute;
+    width: inherit;
+    height: 10%;
+    bottom: 0;
+    background-color: #a6a6a6;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 10px;
 }
