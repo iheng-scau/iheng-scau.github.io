@@ -126,3 +126,7 @@ footer{
     overflow: hidden;
 }
 
+.front-header-icons {
+    display: block;
+    float: right;
+}
