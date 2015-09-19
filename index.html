@@ -4,7 +4,10 @@
     <head>
         <title>ExCodes</title>
         <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="css/common.css"/>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-2.0.2.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </head>
     <body>
 	    <div class="nav">
@@ -14,16 +17,26 @@
                 </div>
                 <div class="profile-details">
                     <i class="fa fa-user"></i><b>Alex Galen</b>&nbsp;
-                    <span id="smaller-info">&nbsp;<i class="fa fa-mars"></i>,&nbsp;23</span>
+                    <span id="smaller-info">&nbsp;<i class="fa fa-mars"></i>,23</span>
                     <span class="profile-section">
-                        <i class="fa fa-tag"></i><span>Developer</span><span>Java</span><span>Geek</span>
+                        <i class="fa fa-tag"></i>
+                        <span class="tag" style="color: rgba(0, 0, 0, 0.68);">Developer</span>
+                        <span class="tag" style="color: #ec2f2f;">Java</span>
+                        <span class="tag" style="color: #0026ff;">Geek</span>
                     </span>
-                    <span class="profile-section">
+                    <span class="profile-section" style="background-color: rgba(0,0,0,0.3);">
                         <i class="fa fa-suitcase"><sub>1</sub></i>ZTESoft Co.,Ltd(2014)<br>
                         <i class="fa fa-suitcase"><sub>2</sub></i>Kingdee Software(China) Co,.Ltd(2015)
                     </span>
+                    <span class="link-me">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-weibo"></i>
+                        <i class="fa fa-weixin"></i>
+                        <i class="fa fa-github"></i>
+                    </span>
                     <span class="profile-section">
-                        <i class="fa fa-quote-left"></i>This is my Motto<i class="fa fa-quote-right"></i>
+                        <i class="fa fa-quote-left"></i>This a brief introduction an my motto here <i class="fa fa-quote-right"></i>
                     </span>
                     <span class="profile-section">
                         
@@ -32,20 +45,20 @@
             </div>
             <div class="nav-div">
                 <ul id="nav-ul">
-                    <li>
-                        <i class="fa fa-coffee"></i><a href="#">Java</a>
+                    <li id="java">
+                        <i class="fa fa-coffee" style="color: #ec2f2f"></i><a href="#">Java</a>
                     </li>
-                    <li>
-                        <i class="fa fa-html5"></i></i><a href="#">Web</a>
+                    <li id="web">
+                        <i class="fa fa-html5" style="color: #ff6a00"></i></i><a href="#">Web</a>
                     </li>
-                    <li>
-                        <i class="fa fa-android"></i><a href="#">Android</a>
+                    <li id="android">
+                        <i class="fa fa-android" style="color: #4cff00"></i><a href="#">Android</a>
                     </li>
-                    <li>
-                        <i class="fa fa-inbox"></i></i><a href="#">Cordova</a>
+                    <li id="cordova">
+                        <i class="fa fa-inbox" style="color: #b200ff"></i></i><a href="#">Cordova</a>
                     </li>
-                    <li>
-                        <i class="fa fa-cubes"></i><a href="#">Extra</a>
+                    <li id="extra">
+                        <i class="fa fa-cubes" style="color: #0094ff"></i><a href="#">Extra</a>
                     </li>
                 </ul>
             </div>
@@ -70,6 +83,7 @@
             </div>
         </div>
         <footer>
+            <p><i class="fa fa-flask fa-3x"></i></p>
             <p>The GitHub Page for Excodes.org|iheng-scau.Design by Alex Galen.</p>
             <p>All right reserved,(C)2014-2015</p> 
         </footer>

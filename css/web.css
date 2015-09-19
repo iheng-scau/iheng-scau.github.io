@@ -1,0 +1,9 @@
+body {
+}
+
+.header {
+    display: block;
+    width: 100%;
+    height: 75px;
+    background: -webkit-linear-gradient(left,rgba(227, 76, 38, 0.6),rgba(23,88,168,0.6));
+}
