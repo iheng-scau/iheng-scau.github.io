@@ -119,11 +119,17 @@ i{
     padding-left: 10px;
 }
 
+.profile-section a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer{
     display: block;
     width: 100%;
     min-width: 800px;
-    height: 100px;
+    padding: 15px 0 0 0;
+    height: 120px;
     text-align: center;
     font-family: 'Segoe UI';
     font-size: 10px;
@@ -173,4 +179,34 @@ footer{
     padding: 3px;
     border-radius: 3px 3px 3px 3px;
     background-color: #bcb8b8;
+}
+
+.profile-section-title {
+    display: block;
+    width: inherit;
+    margin-bottom: 5px;
+    font-size: 13px;
+    border-left: solid 2px #24aff5 ;
+    text-indent: 5px;
+    text-align: left;
+}
+
+#site-tips {
+    display: block;
+    padding: 5px;
+    position: absolute;
+    width: 70%;
+    min-width: 600px;
+    top: -25px;
+    background-color: #faffc5;
+    font-size: 12px;
+}
+
+.tip-content {
+    text-indent: 10px;
+    border-left: solid 3px #0082e3;
+}
+
+.tip-content img {
+    vertical-align: bottom;
 }

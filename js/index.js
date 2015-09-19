@@ -4,4 +4,10 @@ $(document).ready(function () {
         var location = "../pages/" + item_id + ".html";
         $(".main-content").load(location);
     });
+
+    $("#site-tips").animate({ top: '0px' });
 });
+
+function action_closeTip() {
+    $("#site-tips").animate({ top: '-30px' });
+}
