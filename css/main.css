@@ -1,0 +1,19 @@
+body {
+    
+}
+
+.content{
+    position: absolute;
+    width: inherit;
+    height: 550px;
+    background-image: url(../img/main_bg1.png);
+}
+
+.main-title {
+    position: relative;
+    display: block;
+    width: inherit;
+    padding: 5px 0 10px 15px;
+    margin: 10px 0 10px 0;
+    background-color: rgba(255, 255, 255, 0.51);
+}
