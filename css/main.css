@@ -76,7 +76,7 @@
     display: block;
     padding: 5px 0px 5px 15px;
     color: #fff;
-    background-color: rgba(68, 226, 236, 0.5);
+    background-color: rgba(100, 236, 245, 0.8);
 }
 
 .content-desc{
@@ -104,4 +104,13 @@
     display: inline-block;
     float: right;
     margin-right: 5px;
+    color: #fff;
+}
+
+.more a {
+    color: #fff;
+}
+
+.more i {
+    padding-right: 3px;
 }

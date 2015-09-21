@@ -8,6 +8,10 @@
     background-color: #00ff90;
 }
 
-.link{
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
     text-decoration: underline;
 }
