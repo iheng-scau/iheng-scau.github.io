@@ -6,3 +6,7 @@ $(document).ready(function () {
         $(this).parents(".timestamp-content").children(".content-desc").toggle("normal");
     });
 });
+
+function action_close(){
+    $(".main-title").hide("normal");
+}

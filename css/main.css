@@ -4,17 +4,21 @@
     margin: 0;  
 }
 
+body {
+    height: 100%;
+}
+
 .content{
     position: absolute;
     width: inherit;
-    height: inherit;
+    height: 700px;
     background-image: url(../img/main_bg1.png);
 }
 
 .main-title {
     position: relative;
     display: block;
-    width: inherit;
+    width: 98%;
     padding: 5px 0 10px 15px;
     margin: 10px 0 10px 0;
     background-color: rgba(255, 255, 255, 0.51);
