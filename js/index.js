@@ -9,9 +9,12 @@ $(document).ready(function () {
 
     $("#site-tips").animate({ top: '0px' });
 
+    //nav和main的高度对齐
+    var nav_height = $(".nav").height();
+    $(".main").css("height", nav_height);
     $(window).resize(function () {
-        var nav_width = $(".nav").width();
-        var main_width = $(".main").width();
+        var nav_height = $(".nav").height();
+        $(".main").css("height", nav_height);
     });
 });
 
