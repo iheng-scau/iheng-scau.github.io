@@ -11,7 +11,8 @@
         <script type="text/javascript" src="js/index.js"></script>
     </head>
     <body>
-	    <div class="nav">
+	    <div class="nav" id="nav">
+            <i id="resize-nav" class="fa fa-compress"></i>
             <div class="profiles">
                 <div class="portrait">
                     <img alt="portrait" src="../img/me.jpg"/>
@@ -69,13 +70,13 @@
                         <i class="fa fa-coffee" style="color: #ec2f2f"></i><a href="#">Java</a>
                     </li>
                     <li id="web">
-                        <i class="fa fa-html5" style="color: #ff6a00"></i></i><a href="#">Web</a>
+                        <i class="fa fa-html5" style="color: #ff6a00"></i><a href="#">Web</a>
                     </li>
                     <li id="android">
                         <i class="fa fa-android" style="color: #4cff00"></i><a href="#">Android</a>
                     </li>
                     <li id="cordova">
-                        <i class="fa fa-inbox" style="color: #b200ff"></i></i><a href="#">Cordova</a>
+                        <i class="fa fa-inbox" style="color: #b200ff"></i><a href="#">Cordova</a>
                     </li>
                     <li id="extra">
                         <i class="fa fa-cubes" style="color: #0094ff"></i><a href="#">Extra</a>
@@ -94,6 +95,7 @@
                             <i class="fa fa-github"></i>
                             <i class="fa fa-paper-plane"></i>
                             <i class="fa fa-star"></i>
+                            <i class="fa fa-arrow-circle-down" id="shrink_main_header" onclick="action_shrinkFrontHeader()"></i>
                         </span>
                     </div>
                  </div>

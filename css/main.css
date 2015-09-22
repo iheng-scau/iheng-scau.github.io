@@ -11,7 +11,7 @@ body {
 .content{
     position: absolute;
     width: inherit;
-    height: 700px;
+    height: 800px;
     background-image: url(../img/main_bg1.png);
 }
 
