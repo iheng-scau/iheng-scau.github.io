@@ -1,11 +1,12 @@
 .tag {
     font-size: 12px;
-    font-weight: bolder;
+    //font-weight: bolder;
     margin-right: 3px;
+    margin-bottom: 5px;
     padding: 0 5px 0 5px;
     display: inline-block;
     border-radius: 6px 6px 6px 6px;
-    background-color: #00ff90;
+    background-color: rgba(255, 255, 255, 0.38);
 }
 
 .link {
