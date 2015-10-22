@@ -21,7 +21,7 @@ i{
 /*main block style*/
 .nav{
     width: 25%;
-    height: 800px;
+    height: 750px;
     display: inline-block;
     float: left;
     bottom: 10%;
@@ -236,13 +236,13 @@ footer{
 
 #site-tips {
     display: block;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
     position: absolute;
     width: 80%;
-    min-width: 800px;
     top: -25px;
     background-color: #faffc5;
     font-size: 12px;
+    overflow: hidden;
 }
 
 .tip-content {
