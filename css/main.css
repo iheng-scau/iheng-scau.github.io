@@ -118,3 +118,8 @@ body {
 .more i {
     padding-right: 3px;
 }
+
+.rotate {
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg); 
+}
