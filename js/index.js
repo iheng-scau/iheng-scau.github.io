@@ -13,21 +13,26 @@ $(document).ready(function () {
     var nav_height = $(".nav").height();
     $(".main").css("height", nav_height);
     $(window).resize(function () {
-        var nav_height = $(".nav").height();
+        var nav_height = $("#nav").height();
         $(".main").css("height", nav_height);
+
+        var nav_width = $("#nav").width();
+        var body_width = $("body").width();
+        $(".main").css("width", body_width - nav_width);
     });
 
     //将nav切换为简约模式
-    /**
     $("#resize-nav").click(function () {
         var class_name = $("#nav").attr("class");
         if (class_name == "nav") {
-            $("#nav").animate({width:'50px'});
+            $("#nav").animate({ width: '30px' });
             $("#nav").removeClass("nav").addClass("nav-narrow");
+            $(".main").addClass("main-narrow");
             return;
         }
+        $(".main").removeClass("main-narrow");
         $("#nav").removeClass("nav-narrow").addClass("nav");
-    });**/
+    });
 });
 
 function action_closeTip() {

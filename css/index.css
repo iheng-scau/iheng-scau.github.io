@@ -42,6 +42,17 @@ i{
     overflow: hidden;
 }
 
+.main-narrow{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 76%;
+    min-width: 600px;
+    min-height: 700px;
+    height:100%;
+    overflow: hidden;
+}
+
 /*nav style*/
 #nav-ul{
     margin-top: 20px;
