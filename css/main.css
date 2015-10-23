@@ -11,7 +11,7 @@ body {
 .content{
     position: absolute;
     width: inherit;
-    height: 800px;
+    height: 750px;
     background-image: url(../img/main_bg1.png);
 }
 
@@ -20,7 +20,7 @@ body {
     display: block;
     width: 98%;
     padding: 5px 0 10px 15px;
-    margin: 10px 0 10px 0;
+    margin: 0 0 10px 0;
     background-color: rgba(255, 255, 255, 0.51);
 }
 
@@ -31,7 +31,7 @@ body {
 .timeline-block {
     display: block;
     height: auto;
-    max-height: 300px;
+    min-height: 400px;
     overflow-y: auto; 
 }
 
