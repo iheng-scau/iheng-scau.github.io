@@ -1,0 +1,10 @@
+{
+    "name": "iheng.gitbub.io",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "lite": "lite-server --port 10001",
+        "start": "npm run lite"
+    },
+    "author": "iheng"
+}
