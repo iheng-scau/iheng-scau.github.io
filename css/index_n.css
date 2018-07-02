@@ -1,0 +1,86 @@
+.content{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 10%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+header{
+    padding: 25px 10px 10px 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.profile-details{
+    text-align: center;
+}
+
+.portrait {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.portrait img {
+    width: inherit;
+    height: inherit;
+}
+
+.profile-section{
+    padding: 2px 0 2px 0;
+    display: block;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.main{
+    padding: 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: inherit;
+    list-style: none;
+    height: 30px;
+    background-color: #20b0e8;
+}
+
+.nav li{
+    float: left;
+    width: 33.3333%;
+    height: auto;
+    overflow: hidden;
+}
+
+.nav li a{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li .sub-content{
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    min-width: 800px;
+    padding: 15px 0 0 0;
+    height: 180px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 10px;
+    float: left;
+    background-color: rgba(0,0,0,0.2);
+}

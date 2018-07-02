@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EXcodes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/site_icon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="./css/index_n.css" />
+    <script type="text/javascript" src="js/jquery-2.0.2.js"></script>
+    <script type="text/javascript">
+       $(function(){
+           $(".sub-content").load("pages/projects.html");
+       });
+    </script>
+</head>
+
+<body>
+    <!--页面区域-->
+    <div class="content">
+        <header class="header">
+            <div class="portrait">
+                <img alt="portrait" src="./img/me.jpg" />
+            </div>
+            <div class="profile-details">
+                <i class="fa fa-user" style="color:#c5c5c5"></i>
+                <b style="color:#c5c5c5">张德恒(Alex) | </b>
+                <span id="smaller-info" style="color :#c5c5c5">
+                    <i class="fa fa-mars" style="padding: 0;"></i>,26
+                </span>
+                <br/>
+                <span class="profile-section">
+                    <i class="fa fa-envelope"></i>zhang.deheng@outlook.com,
+                    <i class="fa fa-phone"></i>+86 15813374900
+                </span>
+                <span class="profile-section" style="font-size: 12px;">
+                    <i class="fa fa-mortar-board"></i>SCAU-Bachelor, Software Engineering
+                </span>
+                <span class="link-me">
+                    <i class="fa fa-link"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-weibo"></i>
+                    <i class="fa fa-weixin"></i>
+                    <a href="https://github.com/iheng-scau" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </span>
+                <span class="profile-section">
+                    <i class="fa fa-quote-left"></i>This a brief introduction an my motto here
+                    <i class="fa fa-quote-right"></i>
+                </span>
+        </header>
+        <div class="main">
+            <ul class="nav">
+                <li>
+                    <a href="#">Projects</a>
+                    <div class="sub-content" id="project-content"></div>
+                </li>
+                <li>
+                    <a href="#">Articles</a>
+                    <div class="sub-content" id="article-content">
+
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Profiles</a>
+                    <div class="sub-content" id="profile-content">
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <footer class="footer">
+            <p>
+                <i class="fa fa-flask fa-3x"></i>
+            </p>
+            <p>ExCodes.org | iheng-scau
+                <i class="fa fa-external-link-square"></i>
+            </p>
+            <div style="padding: 10px 0 5px 0;">
+                Powered by:
+                <img alt="#" src="img/logo-jquery.png" style="width: 72px;height: 20px; vertical-align: bottom;" />,
+                <i class="fa fa-flag fa-2x" style="color: #fff;"></i>,
+                <i class="fa fa-github-alt fa-2x" style="color: #fff;"></i>
+            </div>
+            <p>The GitHub Page for
+                <b>Excodes.org|iheng-scau</b>.Designed by Alex Galen.</p>
+            <p>All Copyrights reserved,(C)2014-2015</p>
+        </footer>
+        </div>
+</body>
+
+</html>
