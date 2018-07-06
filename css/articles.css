@@ -1,0 +1,45 @@
+
+.content{
+    height: 100%;
+}
+
+.article-item{
+    padding: 5px;
+    display: block;
+    margin: -28px 0px 0px 20px;
+}
+
+.article-content .timeline li{
+    min-width: 500px;
+}
+
+.time-author{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 5px;
+    padding: 1px 0 1px 0;
+    font-size: 11px;
+    color: #353535;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.article-item span{
+    display: block;
+}
+
+.article-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 0 5px 5px;
+    font-size: 15px;
+    color: #fff
+}
+
+.tag{
+    float: left;
+    display: block;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 8px;
+    background-color: beige;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
