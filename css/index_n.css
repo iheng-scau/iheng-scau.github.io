@@ -94,7 +94,7 @@ header{
 .nav li{
     display: block;
     float: left;
-    width: 33.3333%;
+    width: 20%;
     height: auto;
     overflow: hidden;
 }
@@ -107,6 +107,7 @@ header{
     line-height: 50px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav li a i{
