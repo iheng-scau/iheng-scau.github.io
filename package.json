@@ -10,6 +10,6 @@
   "author": "iheng",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.11.0"
+    "http-server": "^0.12.3"
   }
 }
