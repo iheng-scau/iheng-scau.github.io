@@ -6,7 +6,7 @@ $(function () {
     $("#issues-content").load("pages/issues.html");
 
     $(".nav li:eq(2)").css("width", "40%");
-    $(".nav li:eq(2)").siblings("li").animate({ "width": "15%", "opacity": "0.2" }, "fast");
+    $(".nav li:eq(2)").siblings("li").animate({ "width": "20%", "opacity": "0.2" }, "fast");
 
     var curli = 1;
     $(".nav li").click(function () {
@@ -15,7 +15,7 @@ $(function () {
             return;
         }
         curli = clickli;
-        $(this).siblings("li").animate({ "width": "15%", "opacity": "0.2" }, "fast");
+        $(this).siblings("li").animate({ "width": "20%", "opacity": "0.2" }, "fast");
         $(this).animate({ "width": "40%", "opacity": "1" });
     });
 });
