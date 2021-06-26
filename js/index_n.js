@@ -1,9 +1,7 @@
-$(function () {
-    $("#project-content").load("pages/projects.html");
-    $("#article-content").load("pages/articles.html");
-    $("#profile-content").load("pages/profiles.html");
-    $("#favorite-content").load("pages/favorite.html");
-    $("#issues-content").load("pages/issues.html");
+$(function () { 
+    $("#articles-content").load("pages/articles.html");
+    $("#events-content").load("pages/whatsup.html");
+    $("#projects-content").load("pages/projects.html");
 
     $(".nav li:eq(2)").css("width", "40%");
     $(".nav li:eq(2)").siblings("li").animate({ "width": "20%", "opacity": "0.2" }, "fast");
