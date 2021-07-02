@@ -27,11 +27,11 @@
 
 #lol-level {
     display: inline-block;
-    background-color: ivory;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 3px;
     font-size: 10px;
-    color: rgb(32, 32, 32);
+    color: rgb(73, 73, 73);
     font-weight: bold;
     padding: 0 2px 0 2px;
 }
@@ -70,6 +70,7 @@
 
 .stat-title {
     font-size: 10px;
+    color: rgba(255, 255, 255, 0.589);
 }
 
 hr {
