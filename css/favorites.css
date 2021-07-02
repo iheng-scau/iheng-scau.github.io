@@ -1,4 +1,78 @@
-.favorite-content{
+.game-content{
     background-image: url(../img/bg1.png);
-    height: 850px;
+    height: 600px;
+}
+
+.lol-profile {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 300px;
+    height: inherit;
+}
+
+.lol-profile div {
+    margin-top: 15px;
+}
+
+.lol-header{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.lol-header span{
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+#lol-level {
+    display: inline-block;
+    background-color: ivory;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 10px;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+    padding: 0 2px 0 2px;
+}
+
+.lol-stat {
+    display: block;
+    color: lightcyan;
+}
+
+.lol-stat ul {
+    list-style: none;
+    display: block;
+    align-content: center;
+    padding: 0;
+}
+
+.lol-stat ul li {
+    display: inline-block;
+    width: 30%;
+}
+
+.lol-stat ul li:nth-child(2) {
+    border-left: lightcyan 1px solid;
+    border-right: lightcyan 1px solid;
+}
+
+.lol-stat ul li span {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.stat-value {
+    font-size: 15px;
+}
+
+.stat-title {
+    font-size: 10px;
+}
+
+hr {
+    display:block;
+    width: 80%;
 }
