@@ -15,7 +15,7 @@
 }
 
 .lol-header{
-    display: block;
+    display:block;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -76,4 +76,52 @@
 hr {
     display:block;
     width: 80%;
+}
+
+.lol-content {
+    display: inline-block;
+    width: inherit;
+    vertical-align: top;
+}
+
+.lol-content ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.lol-content ul li {
+    display: inline-block;
+}
+
+.lol-content ul li div {
+    display: block;
+    margin: 0 !important;
+}
+
+.summoner-desc {
+    height: 80px;
+    width: 300px;
+    background-size: 300px;
+    color: ivory;
+}
+.summoner-desc #lol-level {
+    float:right;
+}
+
+.summoner-stat {
+    display: inline-block;
+    background-color: rgba(26, 26, 26, 0.521);
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 0 5px 0 5px;
+    margin-top: 50px;
+}
+
+.summoner-stat sup {
+    font-size: 8px;
 }
