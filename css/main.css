@@ -31,7 +31,7 @@ body {
 .timeline-block {
     display: block;
     height: auto;
-    min-height: 400px;
+    height: fit-content;
     overflow-y: auto; 
 }
 
