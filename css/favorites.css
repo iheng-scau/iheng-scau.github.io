@@ -1,6 +1,6 @@
 .game-content{
     background-image: url(../img/bg1.png);
-    height: 600px;
+    height: 320px;
 }
 
 .lol-profile {
@@ -80,6 +80,7 @@ hr {
 
 .lol-content {
     display: inline-block;
+    width: 300px !important;
     width: inherit;
     vertical-align: top;
 }
