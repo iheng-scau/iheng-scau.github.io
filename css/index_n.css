@@ -12,7 +12,7 @@ body{
 header{
     font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 25px 10px 20px 10px;
-    background-image: url("../img/texture.png");
+    background-image: url("../img/header-bg.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -143,6 +143,10 @@ header{
 
 #events-content{
     margin: 280px 0 0 400px;
+}
+
+#projects-content{
+    margin: 0 0 10px 400px;
 }
 
 footer{
