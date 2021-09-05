@@ -83,3 +83,7 @@
     overflow: hidden;
     display: inline-block;
 }
+
+#page-changelog span{
+    display: block;
+}
